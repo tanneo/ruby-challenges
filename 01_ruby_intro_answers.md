@@ -45,11 +45,11 @@ Your ruby version:
 ## 525,600 minutes in year * 10 years
     * Answer: 5,256,000
 3. How many seconds old are you?
-## first 29 years
-## (((24 * 60) * 60) * 365) * 29 = 914544000
-## final year = July 30th 
-## t = Time.now
-## b = time.new(2019,7,3,0)
-## t - b = 12233720.035704 seconds
-## total = 914544000 + 12233720 seconds in last year
-    * Answer: 926,777, 720 seconds old
+<!--require "time" 
+ => true
+Time.now.to_i
+=> 1550720751
+dob.to_i
+=> 616255200
+Time.now.to_i - dob.to_i -->
+* Answer 934465711
