@@ -16,9 +16,5 @@
      `git push origin master`
 
 ## List of challenge branches
-<<<<<<< HEAD
-* 01_ruby_intro
-=======
 * 01_ruby_intro
 * 02_input_output
->>>>>>> e2732157f0941ad9a87df0187303e98b4ea7d9e8
