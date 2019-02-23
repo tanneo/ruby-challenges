@@ -41,7 +41,7 @@ Your ruby version:
     * Answer: $8,760
 2. How many minutes are in a decade?
     24 hours per day * 60 minutes per hour = $1,440
-    1440 minutes per day * 365 days in year = %525,600
+    1440 minutes per day * 365 days in year = 525,600
     525,600 minutes in year * 10 years
     * Answer: 5,256,000
 3. How many seconds old are you?
