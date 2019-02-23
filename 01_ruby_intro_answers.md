@@ -45,11 +45,25 @@ Your ruby version:
 ## 525,600 minutes in year * 10 years
     * Answer: 5,256,000
 3. How many seconds old are you?
-<!--require "time" 
- => true
-Time.now.to_i
-=> 1550720751
-dob.to_i
-=> 616255200
-Time.now.to_i - dob.to_i -->
+#!--require "time" 
+#=> true
+#Time.now.to_i
+#=> 1550720751
+# dob.to_i
+# => 616255200
+# Time.now.to_i - dob.to_i -->
 * Answer 934465711
+
+
+#Use interpolation to put your name on the screen
+echo "Tegan" + " Oar"
+#Make a new variable called 'siblings', set it's value to the number of siblings you have (integer)
+siblings = 3
+#Use code to put your number of siblings on the screen.
+puts siblings
+#Use interpolation to pretty it up, E.g.: “Total Siblings: 3”
+puts "Total siblings: #{3}"
+#Use code to increase your number of siblings by one.
+siblings = 3 + 1
+#Use interpolation again to put your new number of siblings on the screen 
+puts "New number of siblings: #{siblings}"
