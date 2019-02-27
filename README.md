@@ -18,25 +18,7 @@
 ## List of challenge branches
 * 01_ruby_intro
 * 02_input_output
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-* 03_largest_number
->>>>>>> da4dd559766a8de215b1be280af0bb4c15966aa5
-=======
-* 03_largest_number
-* 04_sum_numbers
->>>>>>> ca0498614d1b4bcb2ee50e3189f18e597eb98b3b
-=======
-* 03_largest_number
-* 04_sum_numbers
-* 05_in_array
->>>>>>> a600065b3f320365a06fe044bcddc70911b1fe59
-=======
 * 03_largest_number
 * 04_sum_numbers
 * 05_in_array
 * 06_definition
->>>>>>> 0c5142cf57ae7e09850c719182717c4efdd33e24
