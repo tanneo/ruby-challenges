@@ -1,25 +1,32 @@
-class Definition 
-    attr_accessor :word, :definition
-        def initialize (word, definition)
-          @word = word
-          @definition = definition
-        end
-        def add_word(word, definition)
-            puts "#{word}, #{definition}"
-        end
-        def lookup_word(word1)
-            if word1 == @word
-                puts @word
-            else
-                puts "word isn't saved"
-            end
-        end
-     end
+class Definition
+    def initialize
+        @dictionary = {}
+    end
+            
+    def add_word(word, definition)
+        @dictionary.store(word, definition) #add word should store definiton and word
+    end
 
+    def all_words
+        return @dictionary.length #display length of all words
+    end
 
-# # definition = Definition.new
-# definition.add_word('ruby', 'A red, precious stone')
-# # definition.lookup_word('ruby')
+    def lookup(word)
+        return @dictionary[word] #lookup word
+    end
+end 
+        
+
+        
+    definition = Definition.new 
+    puts definition.add_word("ruby", "red gem") #add a key value pair for testing
+    puts definition.add_word("emerald", "green gem") #add another key value pair for testing
+    puts definition.all_words #print number of all words. i.e not including description
+    puts definition.lookup("first word") #lookup words
+  
+      
+   
+        # # definition.lookup_word('ruby')
 
 # Definition
 # 
