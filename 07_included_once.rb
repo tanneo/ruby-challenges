@@ -16,8 +16,21 @@
 #
 # Check your solution by running the tests:
 # ruby tests/14_included_once_test.rb
-#
+needle = "hi"
+haystack = ["hello", "howdy", "gday", "hi"]
 
-def included_once (haystack, needle)
-  # Your code here
-end
+def included_once(haystack, needle)
+    i = 0
+    haystack.each { |hay| 
+      if hay == needle
+        i +=1
+      end
+    }
+    if i == 1
+      return true
+    else 
+      return false
+    end
+  end
+  
+  puts included_once(haystack, needle)
