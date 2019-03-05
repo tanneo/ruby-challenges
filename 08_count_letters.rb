@@ -10,8 +10,21 @@
 # Check your solution by running the tests:
 # ruby tests/08_count_letters_test.rb
 
-def count_letters (string)
-  result = {} # You'll need an empty hash to get started!
+user_input = "hello".chars #creates an array called user input
+puts user_input
+puts user_input.length
 
-  return result # return the hash
-end
+# result = {"hello", "hi"}
+# result.store(:key, "value")
+# puts result
+
+# def count_letters(string)
+#   result = {}
+#   user_input = string.chars
+  
+#   return result # return the hash
+# end
+
+# # puts count_letters("hello")
+
+# puts count_letters('string')
