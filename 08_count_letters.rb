@@ -10,17 +10,19 @@
 # Check your solution by running the tests:
 # ruby tests/08_count_letters_test.rb
 
-user_input = "hello".chars #creates an array called user input
-puts user_input
-puts user_input.length
 
-# result = {"hello", "hi"}
-# result.store(:key, "value")
-# puts result
 
-# def count_letters(string)
-#   result = {}
-#   user_input = string.chars
+
+#need to split out characters
+#need to keep count of number of times that a character is in a string
+#need to return key- pair value in hash. letter in string and number of times it appears in string
+
+def count_letters(string)
+    result = {}
+    string.chars.each{|element| result[element] = string.count(element)}
+end
+
+puts count_letters("hello")
   
 #   return result # return the hash
 # end

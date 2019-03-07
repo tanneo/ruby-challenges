@@ -10,6 +10,11 @@
 # Check your solution by running the tests:
 # ruby tests/09_vowels_test.rb
 
+# need to convert strings to characters and remove spacing
+# need to count vowels
+
 def vowels (string)
-  # Your code here
+  string.scan(/[a e i o u]/).compact.reject { |h| h == "" }
 end
+
+puts vowels("hello World")
