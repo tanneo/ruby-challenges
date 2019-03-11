@@ -25,7 +25,5 @@
 * 07_included_once
 * 08_count_letters
 * 09_vowels
-<<<<<<< HEAD
-=======
 * 10_unique
->>>>>>> 22214b8847ff6c0bac28dc9a21fa0df33d860f1c
+* 11_fizzbuzz
