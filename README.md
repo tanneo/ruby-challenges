@@ -27,7 +27,4 @@
 * 09_vowels
 * 10_unique
 * 11_fizzbuzz
-<<<<<<< HEAD
-=======
 * 12_count_words
->>>>>>> 937f429a6570923b9196f3610cb404d51c87a14a

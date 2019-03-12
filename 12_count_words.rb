@@ -12,6 +12,34 @@
 
 
 # Your code here
+def count_words(input)
+    input_array = input.split(" ") #splitting word strings into array
+    output = {}
+    input_array.each do |item| #hash can have any type of key or value 
+        if output_contains_key?(output, item)
+            output[item] +=1
+        else 
+            ouput[item] =1
+        end
+    end
+    return output
+end
+
+        #Does it exist already - no ouput of item = 1
+        # If yes - +=1
+ def output_contains_key?(output, key)
+    output.each do |k|
+        if k == key
+            return true
+        end
+    end
+     return false
+end
+
+puts coun_words()
+
+
+
 
 
 # Beast Mode:
