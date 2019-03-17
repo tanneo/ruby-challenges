@@ -15,6 +15,40 @@
 # Check your solution by running:
 # ruby 14_hackerman.rb
 
+puts "type words to enter program" #ask user first question
+answer1 = gets.chomp.downcase.split(" ") #get users first answer and split into array of strings
+puts answer1
+
+puts "type words to enter program" #ask user second question
+answer2 = gets.chomp.downcase.split(" ") #get users second answer in downcase and split into an array of string
+
+# answer1 = [] creates an array of strings
+# answer2 = [] creates an array of strings
+new_array = []
+puts new_array << answer1.zip(answer2).map { |x, y| x == y } 
+
+new_array.each |item|
+    if item == true
+        puts answer1[i]
+    else
+        puts "HIDDEN"
+    end
+
+
+      
+
+ 
+
+ 
+#answer 1 ["string", "string"]
+#answer 2 ["string", string]
+
+#check all elements in first string against all elements in second string
+#if not equal to elements in second string print element of first string
+#if equal to element in second string print HIDDEN
+
+
+
 
 
 # Your code here

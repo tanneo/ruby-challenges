@@ -29,7 +29,4 @@
 * 11_fizzbuzz
 * 12_count_words
 * 13_fibonacci
-<<<<<<< HEAD
-=======
 * 14_hackerman
->>>>>>> adb499cafc46a70114f2fb2e4262f3897a4ccaf9
