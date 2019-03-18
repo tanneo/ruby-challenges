@@ -31,7 +31,4 @@
 * 13_fibonacci
 * 14_hackerman
 * 15_change_letters
-<<<<<<< HEAD
-=======
 * 16_palindrome
->>>>>>> 5f4dd7950c4401600a6c84e20a801885d610259b
