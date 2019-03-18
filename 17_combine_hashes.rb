@@ -10,11 +10,14 @@
 # be concatenated and the result stored in the combined hash
 
 # Example:
-# hash1 = { a: 3, b: 5, c: 1}
-# hash2 = { a: 5, b: 2, c: 14}
+hash1 = { a: "a", b: 5, c: 1}
+hash2 = { a: "b", b: 2, c: 14}
+hash3 = {}
 # combine_hashes => { a: 8, b: 7, c: 15 }
+#keep key the same
+#add the values together
 
-# Example: 
+# Example:
 # hash1 = {a: "a", b:"b", c:"c"}
 # hash2 = {a: "a", b:"b", c:"c"}
 # combine_hashes => {a: "aa", b:"bb", c:"cc"}
@@ -23,10 +26,10 @@
 
 # Test your solution with ruby tests/17_combine_hashes.rb
 
-def combine_hashes(hash1, hash2)
-  hash3 = {}
+def combine_hashes(h1, h2)
 
-  # Your code here
+  return h1.merge(h2){|key, oldVal, newVal | oldVal + newVal }
 
-  return hash3
 end
+
+puts combine_hashes(hash1, hash2)
