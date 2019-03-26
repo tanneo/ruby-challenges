@@ -16,10 +16,14 @@
 #Input: 1254859723 Output: 9875543221
 
 def descending_order(n)
-    # Your code goes here
+    number_array = n.to_s.split(//) #make an array of strings
+    number_array.sort.reverse.inject(:+).to_i #reverse the array, add elements to eachother, and change to integer
 end
 
 # Test your code here
-descending_order(1)
+puts descending_order(98763)
 
 # Add some interesting test cases that test edge cases
+
+
+
