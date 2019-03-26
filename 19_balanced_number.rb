@@ -58,18 +58,23 @@ def balanced_num(number)
      before_middle_even = ((array.length)/2) - 2
      after_middle_even = ((array.length)/2) + 1
      end_of_array = array.length - 1
-     if elements.even?
-          sum_middle = (array[(center-1)] + array[center])
-          before_middle_array_even = array[(0..(before_middle_even))].inject(:+)
-          after_middle_array_even = array[(after_middle_even)..(end_of_array)].inject(:+)
-          before_middle_array_even == after_middle_array_even ? "Balanced" : "Not Balanced"
-          
+     
+     if array.length == 1 or array.length == 2
+          return "Balanced"
      else
-          sum_middle = array[center]
-          before_middle_array_odd = array[(0..(before_middle_odd))].inject(:+)
-          after_middle_array_odd = array[(after_middle_odd)..(end_of_array)].inject(:+)
-          before_middle_array_odd == after_middle_array_odd ? "Balanced" : "Not Balanced"
-     end  
+          if elements.even?
+               sum_middle = (array[(center-1)] + array[center])
+               before_middle_array_even = array[(0..(before_middle_even))].inject(:+)
+               after_middle_array_even = array[(after_middle_even)..(end_of_array)].inject(:+)
+               before_middle_array_even == after_middle_array_even ? "Balanced" : "Not Balanced"
+               
+          elsif
+               sum_middle = array[center]
+               before_middle_array_odd = array[(0..(before_middle_odd))].inject(:+)
+               after_middle_array_odd = array[(after_middle_odd)..(end_of_array)].inject(:+)
+               before_middle_array_odd == after_middle_array_odd ? "Balanced" : "Not Balanced"
+          end  
+     end
 end
 
 puts balanced_num(91071)
