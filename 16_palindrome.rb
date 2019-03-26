@@ -20,11 +20,8 @@
 # ruby tests/16_palindrome_test.rb
 
 def palindrome (string)
-  if string == string.reverse
-    return true
-  else
-    return false
-  end
+  return false if string == ""
+ string.downcase == string.downcase.reverse
 end
 
 puts palindrome("racecar")
