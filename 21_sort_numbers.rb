@@ -23,6 +23,26 @@
 # Example input: [2,5,4,8,2]
 # Expected output: [2,2,4,5,8]
 
+#
+
 def sort(num_array)
-    # Your code goes here
-end
+  array = num_array.to_s.split("").map(&:to_i)
+    array.length.times do |t|
+        i=0
+        array.length.times do |b|
+          if b > array[i+1]
+            array[i],array[i+1] = array[i+1], array[i]
+            (i += 1) if (i < array.length - 2)
+          end
+        end
+       return array
+    end
+  end
+
+puts sort(5943)
+
+
+
+
+
+

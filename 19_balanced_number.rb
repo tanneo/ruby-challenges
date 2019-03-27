@@ -77,4 +77,4 @@ def balanced_num(number)
      end
 end
 
-puts balanced_num(91071)
+puts balanced_num(910091)
