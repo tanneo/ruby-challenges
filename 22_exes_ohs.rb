@@ -32,6 +32,20 @@
 # Example input: "efefy"
 # Expected output: false
 
-def exes_and_ohs(input)
-    # Your code goes here
-end
+# def exes_and_ohs(input)
+#     # Your code goes here
+# end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
